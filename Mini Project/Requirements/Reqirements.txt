@@ -1,0 +1,26 @@
+1. SOFTWARE REQUIREMENTS:
+
+ (i)   Operating System : Windows 10, Windows Subsystem for Linux
+ (ii)  Front End : C
+ (iii) Tool : CodeBlocks, Ubuntu Terminal
+ (iv)  Windows Image Viewer
+
+2. HARDWARE REQUIREMENTS:
+
+ (i)   Intel i3 
+ (ii)  Processor: 2.48 GHz, 4 GB RAM
+ (iii) Minimum Hardware Requirement:
+           Pentium 3 166 MHZ Or Higher 128 mb RAM
+
+3. FUNCTIONAL REQUIREMENTS:
+
+ (i)   Secret Text Message File: In this file you will have to write a secret message to hide or you can select any text file of secret message.
+ (ii)  Cover Image: Cover Image is the image to be selected in which a secret text message can be hidden.
+ (iii) Stego Encryption LSB implementation is performed on cover image to hide secret text messages by replacing bits of cover image by the bits of message.
+ (iv)  Sender: In this Sender sends this stego image to the intended recipient to which he does want to communicate.
+ (v)   Receiver : In this receiver receives the stego image and opens the decryption option for getting hidden text messages inside that image.
+
+4. NON-FUNCTIONAL REQUIREMENTS:
+
+ (i)   Safety Requirements: Sender and Receiver should make sure that only they are having the same software to encrypt and decrypt data inside the image. Both should take care of eavesdropping.
+ (ii)  Security Requirements:Develop a software in which embedding secret text data in image.Only sender and receiver should be aware of encrypted file.  
