@@ -1,15 +1,16 @@
 # Name of the project
-PROJECT_NAME = Calculator
+PROJECT_NAME = LSB-based-Steganography
 
 # Output directory
 BUILD = build
 
 # All source code files
-SRC = project_main.c\
-src/calculator_operations.c\
+SRC = main.c\
+src/dec.c\
+src/enc.c\
 
 # All test source files
-TEST_SRC = src/calculator_operations.c\
+TEST_SRC = src/dec.c\
 test/test_calculator_operations.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
