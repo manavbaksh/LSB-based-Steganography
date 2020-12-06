@@ -11,7 +11,11 @@ src/enc.c\
 
 # All test source files
 TEST_SRC = src/dec.c\
-test/test_calculator_operations.c
+test/test_dec.c
+
+TEST_SRC = src/enc.c\
+test/test_enc.c
+
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
